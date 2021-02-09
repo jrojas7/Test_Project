@@ -19,7 +19,7 @@ As a framework, Serenity give us the following advantages:
 - Support for running tests on Browser Stack and Sauce Labs
 
 About the test cases:
-- I added videos for all the test cases instead screenshots.
+- I added videos for all the test cases (3 TCs) instead screenshots.
 - Since there was needed to create an account to buy a product, I added one more test case, 
 which is for register users in the site using fake data from an imported library, 
 the test case uses data from the library in the registration form, so this saves time, and is useful when creating test cases for filling forms.
