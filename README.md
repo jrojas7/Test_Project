@@ -23,7 +23,7 @@ As a framework, Serenity give us the following advantages:
 
 About the test cases:
 - I added videos for all the test cases (3 TCs). 
-- The test case for register users in the site, is using fake data from an imported library, 
+- The test case for register users in the site, is using fake data from an imported library added as a dependency in the POM file, 
 it uses data from the library in the registration form, so this saves time, and is useful when creating test cases for filling forms.
 - About the test case to buy a product in the Ecommerce site, the code was completed and it was working, 
 but I updated the software and it broke out at the middle of the test. Please, feel free to review the code.  
