@@ -1,11 +1,14 @@
 # Test_Project
 
-Why I used Serenity BDD framework and Java?
+I would like to share with you a little bit of Serenity BDD which is a course that I am taking now.
+I created 3 test cases, 2 for an Ecommerce site and one for API testing. All of them created only on Serenity BDD.
+The test cases are the following:
+1. Verify that it is possible to create a new account in the http://automationpractice.com/index.php site.
+2. Verify that it is possible to buy a product in the http://automationpractice.com/index.php site.
+3. Verify that the email michael.lawson@reqres.in is in page 2 in https://reqres.in/ using GET https://reqres.in/api/users?page=2.
 
-I was thinking to use Selenium + Java + Test NG in order to write one of the test cases, and use Postman for the other one, 
-but I decided to use Serenity BDD framework, because I was able to execute both test cases there.
-There is nothing wrong with creating our own framework (it takes you more time), 
-but it was useful for me writing both test cases in this framework at this time. 
+There is nothing wrong with creating our own framework, an example of that could be Java + Selenium + Test NG (it takes you more time), 
+but writing them on Serenity framework, is more easy.
 As a framework, Serenity give us the following advantages:
 - UI testing with Selenium.
 - API testing with Rest Assure
@@ -19,10 +22,9 @@ As a framework, Serenity give us the following advantages:
 - Support for running tests on Browser Stack and Sauce Labs
 
 About the test cases:
-- I added videos for all the test cases (3 TCs) instead screenshots.
-- Since there was needed to create an account to buy a product, I added one more test case, 
-which is for register users in the site using fake data from an imported library, 
-the test case uses data from the library in the registration form, so this saves time, and is useful when creating test cases for filling forms.
+- I added videos for all the test cases (3 TCs). 
+- The test case for register users in the site, is using fake data from an imported library, 
+it uses data from the library in the registration form, so this saves time, and is useful when creating test cases for filling forms.
 - About the test case to buy a product in the Ecommerce site, the code was completed and it was working, 
 but I updated the software and it broke out at the middle of the test. Please, feel free to review the code.  
 
