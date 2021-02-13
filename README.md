@@ -8,7 +8,7 @@ The test cases are the following:
 3. Verify that the email michael.lawson@reqres.in is in page 2 in https://reqres.in/ using GET https://reqres.in/api/users?page=2.
 
 There is nothing wrong with creating our own framework, an example of that could be Java + Selenium + Test NG (it takes you more time), 
-but writing them on Serenity framework, is more easy.
+but writing them on Serenity framework reduce the amount of work, you just need to add the dependencies needed in the POM file.
 As a framework, Serenity give us the following advantages:
 - UI testing with Selenium.
 - API testing with Rest Assure
