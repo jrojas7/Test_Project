@@ -1,4 +1,4 @@
-# Test_Project
+# Test Project
 
 I would like to share with you a little bit of Serenity BDD which is a course that I am taking now.
 I created 3 test cases, 2 for an Ecommerce site and one for API testing. All of them created only on Serenity BDD.
