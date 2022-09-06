@@ -1,7 +1,7 @@
 # Test Project
 
-I would like to share with you a little bit of Serenity BDD which is a course that I am taking now.
-I created 3 test cases, 2 for an Ecommerce site and one for API testing. All of them created only on Serenity BDD.
+I would like to share with you a little bit of Serenity BDD.
+I have created 3 test cases, 2 for an Ecommerce site and one for API testing. All of them created only on Serenity BDD.
 The test cases are the following:
 1. Verify that it is possible to create a new account in the http://automationpractice.com/index.php site.
 2. Verify that it is possible to buy a product in the http://automationpractice.com/index.php site.
