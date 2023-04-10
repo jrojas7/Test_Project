@@ -7,8 +7,7 @@ The test cases are the following:
 2. Verify that it is possible to buy a product in the http://automationpractice.com/index.php site.
 3. Verify that the email michael.lawson@reqres.in is in page 2 in https://reqres.in/ using GET https://reqres.in/api/users?page=2.
 
-There is nothing wrong with creating our own framework, an example of that could be Java + Selenium + Test NG (it takes you more time), and use Postman for the API test case, 
-but writing them on Serenity framework reduce the amount of work, you just need to add the dependencies needed in the POM file.
+There is nothing wrong with creating our own framework, an example of that could be Java + Selenium + Test NG, and use Rest Assured or Postman for the API test case (it could take you a little more time), but writing them on Serenity framework reduce the amount of work, you just need to add the dependencies needed in the POM file.
 
 As a framework, Serenity give us the following advantages:
 - UI testing with Selenium.
